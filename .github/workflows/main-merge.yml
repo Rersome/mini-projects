@@ -14,4 +14,5 @@ jobs:
                 disable_notification: true
                 message: |
                     PULL REQUEST from ${{ github.actor }}
+                    https://github.com/Rersome/mini-projects/pulls ${{ steps.pr.outputs.pull_request_number }}
                     ${{ github.event.pull_request.title }}
